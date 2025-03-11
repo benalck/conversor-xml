@@ -115,7 +115,7 @@ function AppRoutes() {
 function App() {
   return (
     <AuthProvider>
-      <Router>
+      <Router basename="/conversor-xml">
         <AppRoutes />
         <Toaster />
       </Router>
